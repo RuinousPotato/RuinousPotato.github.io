@@ -41,17 +41,23 @@ img:hover {
 }
 
 .lpContent {
-  background: yellow;
   display: flex;
   height: 10em;
   justify-content: center;
-  align-items: center;
+  /*align-items: center;
   margin-top: 200px;
-  margin-bottom: 30px;
+  margin-bottom: 30px;*/
+  border-radius: 1em;
+  padding: 1em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
 
-.btn-success {
-  padding: 1rem 2rem;
+#engage {
+  margin-top: 2rem;
 }
 
 body,
